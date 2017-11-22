@@ -1,0 +1,17 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "测试连接mongo数据",
+  "main": "mongo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo"
+  ],
+  "author": "leiyi",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.33"
+  }
+}
