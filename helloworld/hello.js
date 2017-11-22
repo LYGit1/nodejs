@@ -2,6 +2,10 @@ var express = require('express');
 
 var hello = express();
 
+hello.get('/',function(req,res){
+	res.sendFile(__dirname + '/index.html');
+	});
+
 hello.get('/hello/',function(req,res){
 	res.send('hello');
 	});
